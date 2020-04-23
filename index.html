@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/ed5b373b66.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Agoogle</title>
+</head>
+<body onload="randomize()">
+    <header>
+        <div class="container">
+            <a href="#" class="logo">Aoogle</a>
+        </div>    
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 id="title">Aoogle</h1>
+            <span><i class="fa fa-search" id="searchIcon"></i></span>
+            <input type="text" id="search" onKeyPress="return checkSubmit(event)">
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Made By Antonio</p>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="app.js"></script>
+</body>
+</html>
